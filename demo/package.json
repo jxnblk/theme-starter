@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0-0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "gatsby": "^2.1.13",
+    "gatsby-theme-base": "^1.0.0-0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
