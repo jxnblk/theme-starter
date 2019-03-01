@@ -1,8 +1,19 @@
 {
-  "private": true,
-  "name": "theme-starter",
-  "workspaces": [
-    "demo",
-    "themes/*"
-  ]
+  "name": "gatsby-theme-base",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby-plugin-compile-es6-packages": "^1.0.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.1.13",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.1.13",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
 }
